@@ -1,0 +1,28 @@
+{
+    "name": "rogovaya_d/lara_ascii",
+    "description": "It converts to ascii symbols",
+    "type": "library",
+    "authors": [
+        {
+            "name": "d.rogovaya",
+            "email": "rogovaya_d@iac.spb.ru"
+        }
+    ],
+	  "autoload": {
+        "psr-4": {
+            "Rogovaya_d\\LaraAscii\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^9.19",
+        "illuminate/http": "9.19",
+        "illuminate/routing": "9.19"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Rogovaya_d\\LaraAscii\\ServiceProvider"
+            ]
+        }
+    }
+}
